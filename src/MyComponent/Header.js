@@ -1,14 +1,12 @@
 import React from 'react';
+import image1 from './Untitled design.png'
 
 export default function Header() {
-    const fontSize = {
-        fontSize: "20px"
-    }
     return (
         <>
             <header className="main-header clearfix" >
                 <div className="logo">
-                    <a href="/" style={fontSize}><em style={fontSize}>Lakshyam</em> Coaching</a>
+                <img style={{height:"4rem"}} src={image1} alt="imageify" />
                 </div>
                 <a href="#menu" className="menu-link"><i className="fa fa-bars"></i></a>
                 <nav id="menu" className="main-nav" role="navigation">

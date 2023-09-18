@@ -8,7 +8,7 @@ export default function Banner() {
         <>
             <section className="section main-banner" id="top" data-section="section1">
                 <video src={video} autoplay muted loop id="bg-video" >
-                    {/* <source src={video} type="video/mp4" /> */}
+                    <source src={video} type="video/mp4" />
                     
                 </video>
                 <img src="../src/images/main-slider-01" alt="" />
