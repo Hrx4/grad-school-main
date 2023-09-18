@@ -33,9 +33,9 @@ const pressable2 = (e)=>{
         <div className="col-md-12">
           <div id='tabs'>
             <ul>
-              <li><a  href='#' onClick={pressable}>Best Education</a></li>
-              <li><a href='#' onClick={pressable1}>Expert Faculty</a></li>
-              <li><a href='#' onClick={pressable2}>Personalized Attention</a></li>
+              <li><a  href='/' onClick={pressable}>Best Education</a></li>
+              <li><a href='/' onClick={pressable1}>Expert Faculty</a></li>
+              <li><a href='/' onClick={pressable2}>Personalized Attention</a></li>
             </ul>
             <section className='tabs-content'>
               {

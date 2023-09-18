@@ -3,9 +3,7 @@ import video from '../assets/images/course-video.mp4'
 
 
 export default function Banner() {
-   const bannerVideo = {
-
-    }
+  
     return (
         <>
             <section className="section main-banner" id="top" data-section="section1">
