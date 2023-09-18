@@ -6,7 +6,7 @@ export default function Header() {
     }
     return (
         <>
-            <header className="main-header clearfix" role="header">
+            <header className="main-header clearfix" >
                 <div className="logo">
                     <a href="/" style={fontSize}><em style={fontSize}>Lakshyam</em> Coaching</a>
                 </div>
