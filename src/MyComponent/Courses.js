@@ -19,40 +19,40 @@ export default function Courses() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, eos?</p>
               
               <div className="text-button-pay">
-                <a href="#">More Details <i className="fa fa-angle-double-right"></i></a>
+                <a href="/">More Details <i className="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div className="item">
-            <img src="assets/images/courses-02.jpg" alt="Course #2"/>
+            <img src="assets/images/courses-02.jpg" alt="Course /2"/>
             <div className="down-content">
               <h4>Home Tutions</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, eos?</p>
              
               <div className="text-button-free">
-                <a href="#">More Details <i className="fa fa-angle-double-right"></i></a>
+                <a href="/">More Details <i className="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div className="item">
-            <img src="assets/images/courses-03.jpg" alt="Course #3"/>
+            <img src="assets/images/courses-03.jpg" alt="Course /3"/>
             <div className="down-content">
               <h4>Live Courses</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, eos?</p>
               
               <div className="text-button-pay">
-                <a href="#">More Details <i className="fa fa-angle-double-right"></i></a>
+                <a href="/">More Details <i className="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
           <div className="item">
-            <img src="assets/images/courses-04.jpg" alt="Course #4"/>
+            <img src="assets/images/courses-04.jpg" alt="Course /4"/>
             <div className="down-content">
               <h4>Online Tutorials</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, eos?</p>
               
               <div className="text-button-free">
-                <a href="#">More details <i className="fa fa-angle-double-right"></i></a>
+                <a href="/">More details <i className="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function Courses() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, eos?</p>
               
               <div className="text-button-pay">
-                <a href="#">More Details <i className="fa fa-angle-double-right"></i></a>
+                <a href="/">More Details <i className="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function Courses() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, eos?</p>
               
               <div className="text-button-free">
-                <a href="#">More Details <i className="fa fa-angle-double-right"></i></a>
+                <a href="/">More Details <i className="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@ export default function Courses() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, eos?</p>
               
               <div className="text-button-free">
-                <a href="#">More Details <i className="fa fa-angle-double-right"></i></a>
+                <a href="/">More Details <i className="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function Courses() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, eos?</p>
               
               <div className="text-button-pay">
-                <a href="#">More Details <i className="fa fa-angle-double-right"></i></a>
+                <a href="/">More Details <i className="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ export default function Courses() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, eos?</p>
               
               <div className="text-button-pay">
-                <a href="#">More Details <i className="fa fa-angle-double-right"></i></a>
+                <a href="/">More Details <i className="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function Courses() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolor?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, eos?</p>
              
               <div className="text-button-free">
-                <a href="#">More Details <i className="fa fa-angle-double-right"></i></a>
+                <a href="/">More Details <i className="fa fa-angle-double-right"></i></a>
               </div>
             </div>
           </div>
