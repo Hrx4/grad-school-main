@@ -1,28 +1,49 @@
-import React from 'react'
+import React , {useState} from 'react'
+import image1 from '../assets/images/choose-us-image-01.png'
+import image2 from '../assets/images/choose-us-image-02.png'
+import image3 from '../assets/images/choose-us-image-03.png'
+
 
 export default function About() {
+
+  const [aboutContent, setAboutContent] = useState('a')
+
+const pressable = (e)=>{
+  e.preventDefault();
+  setAboutContent('a')
+}
+const pressable1 = (e)=>{
+  e.preventDefault();
+  setAboutContent('b')
+}
+const pressable2 = (e)=>{
+  e.preventDefault();
+  setAboutContent('c')
+}
   return (
     <>
       <section className="section why-us" data-section="section2">
     <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <div className="section-heading">
+          <div  className="section-heading">
             <h2>Why choose Grad School?</h2>
           </div>
         </div>
         <div className="col-md-12">
           <div id='tabs'>
             <ul>
-              <li><a href='#tabs-1'>Best Education</a></li>
-              <li><a href='#tabs-2'>Expert Faculty</a></li>
-              <li><a href='#tabs-3'>Personalized Attention</a></li>
+              <li><a  href='#' onClick={pressable}>Best Education</a></li>
+              <li><a href='#' onClick={pressable1}>Expert Faculty</a></li>
+              <li><a href='#' onClick={pressable2}>Personalized Attention</a></li>
             </ul>
             <section className='tabs-content'>
-              <article id='tabs-1'>
+              {
+                (aboutContent==='a')? (
+                  <article id='tabs-1'>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src="assets/images/choose-us-image-01.png" alt=""/>
+                    <img src={image1} alt=""/>
                   </div>
                   <div className="col-md-6">
                     <h4>Best Education</h4>
@@ -32,10 +53,14 @@ export default function About() {
                   </div>
                 </div>
               </article>
-              <article id='tabs-2'>
+                ): null
+              }
+              {
+                (aboutContent==='b') ? (
+                  <article id='tabs-2'>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src="assets/images/choose-us-image-02.png" alt=""/>
+                  <img src={image2} alt=""/>
                   </div>
                   <div className="col-md-6">
                     <h4>Expert Faculty</h4>
@@ -44,10 +69,14 @@ export default function About() {
                   </div>
                 </div>
               </article>
-              <article id='tabs-3'>
+                ): null
+              }
+              {
+                (aboutContent==='c')? (
+                  <article id='tabs-3'>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src="assets/images/choose-us-image-03.png" alt=""/>
+                  <img src={image3} alt=""/>
                   </div>
                   <div className="col-md-6">
                     <h4>Personalized Attention</h4>
@@ -55,6 +84,8 @@ export default function About() {
                   </div>
                 </div>
               </article>
+                ): null
+              }
             </section>
           </div>
         </div>

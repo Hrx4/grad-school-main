@@ -459,6 +459,10 @@ section.features .col-4 {
 .content-hide p {
   color: #fff;
 }
+.features-content:hover>.content-hide{
+  display: block;
+  transition:  2s ease-in-out all
+}
 
 @media screen and (max-width: 767px) {
 

@@ -18,6 +18,7 @@ import './assets/css/lightbox.css';
 import './assets/css/owl.css';
 import './assets/css/templatemo-grad-school.css';
 import '../src/vendor/bootstrap/css/bootstrap.min.css';
+import TestiMonials from './MyComponent/Testimonials/Testimonials';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <Offer />
       <Courses />
       <Presentation />
+      <TestiMonials/>
       <Contact />
       <Footer />
     </>
